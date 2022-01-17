@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-size: 20px;
+}
+
+header{
+    background-color: #222831;
+    color: white;
+    height: 60px;
+    text-align: left;
+    align-items: center;
+}
+
+footer{
+    background-color: #222831;
+    height: 60px;
+    color: white;
+    display:flex;
+    align-items: center;
+}
+
+footer > p{
+    width:60vw;
+    margin:0 auto;
+    padding-left:40px;
+}
