@@ -1,58 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijksmuseum</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Het Rijksmuseum</title>
+    <script src="js/main.js" defer></script>
 </head>
 
-<body>
-    <header id="top">
-        <nav>
-            <ul>
-                <li class="active"><a href="index.html"></a></li>
-                <li><a href="tickets.html">Tickets</a></li>
-                <li><a href="opening.html">Openingstijden</a></li>
-                <li><a href="index.html">
-                    <figure>
-                        <img src="img/rijksmuseum-logo.png"
-                        alt="Een logo van het Rijksmuseum">
-                    </figure>
-                </a></li>
-            </ul>
-        </nav>
+<body id="js--body">
+    <header class="header">
+        <h1 class="headerTitle">Het Rijksmuseum</h1>
+        <button id="js--menu" class="headerButton">menu</button>
     </header>
-    
+    <nav id="js--nav" class="mainNavigation">
+        <ul class="mainNavigationList">
+            <li class="mainNavigationListItem">
+                <a href="">Home</a>    
+            </li>
+            <li class="mainNavigationListItem">
+                <a href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Tickets</a>    
+            </li>
+            <li class="mainNavigationListItem">
+                <a href="https://www.rijksmuseumshop.nl/nl?utm_source=rijksmuseum.nl&utm_medium=referral&utm_campaign=webshop&utm_content=uitklapmenu_nl">Giftshop</a>    
+            </li>
+            <li class="mainNavigationListItem">
+                <a href="https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/revolusi">Huidige Tentoonstelling</a>    
+            </li>
+        </ul>
+    </nav>
     <main>
-        <section class="homepage">
-            <h1>Artikelen</h1>
-            <article class="box"></article>
-        <article>
-            <p>
-                Een historisch museum waar altijd iets nieuws te ontdekken is. 
-                Het Rijksmuseum kijkt met de blik van nu naar de kunst van toen. 
-                Zo verzeker je jezelf steeds weer van een bijzonder bezoek.
-            </p>
-        </article>
+        <figure class="bigFigure">
+            <img src="img/museum.jpeg"
+                alt="Een foto van het rijksmuseum.">
+        </figure>
+        <section class="info">
+            <div class="block">
+                <h2 class="infoTitle">Geschiedenis</h2>
+                <p>Toen het Rijksmuseum twee eeuwen geleden z’n deuren opende, 
+                was dat níet in Amsterdam.
+                 Waar dan wel?
+                  En wat had Napoleon met de verhuizing te maken?
+                   De geschiedenis van het Rijksmuseum leest als een spannend boek.</p>
+            
+            </div>
+            <div class="block">
+                <h2 class="infoTitle">Over ons</h2>
+                <p>Het Rijksmuseum is het museum van Nederland.
+                    We vertellen het verhaal van 800 jaar Nederlandse geschiedenis vanaf 1200 tot nu. 
+                    Daarnaast organiseren we meerdere tentoonstellingen per jaar uit eigen collectie en met (inter)nationale bruiklenen.</p>
 
+            </div>
+        </section>
+        <section class="collections">
+            <h2 class="collectionsTitle">Collections</h2>
+            <ul class="collectionsList">
+                <li class="collectionsListItem">
+                    <img src="img/pexels-aden-ardenrich-581299.jpg" alt="Japanse lampen met Japanse tekens">
+                </li>
+                <li class="collectionsListItem">
+                    <img src="img/pexels-alex-knight-2425251.jpg" alt="Hoge gebouwen met veel felle kleuren in Japan">
+                </li>
+                <li class="collectionsListItem">
+                    <img src="img/pexels-haugenzhays-zhang-1798631.jpg" alt="Japan in de nacht, veel felle afkomstig van de reclameborden">
+                </li>
+                <li class="collectionsListItem">
+                    <img src="img/pexels-pixabay-372959.jpg" alt="Verschillende Japanse whisky's">
+                </li>
+                <li class="collectionsListItem">
+                    <img src="img/pexels-sunil-poudel-2758567.jpg" alt="Een temple in prachtige natuur.">
+                </li>
+                <li class="collectionsListItem">
+                    <img src="img/pexels-tomáš-malík-3408353.jpg" alt="Een tempel in de voorgrond die over de stad heenkijkt. In de achtergrond zie je de berg Fuji">
+                </li>
+            </ul>
+        </section>
     </main>
-
-    <footer>
-        <p>
+    <footer class="footer">
+        <ul class="footerNavigation">
+            <li class="footerNavigationItem">
+                Openingstijden
+            </li>
+            <li class="footerNavigationItem">
+                Maandag t/m Vrijdag 10:00 - 17.00
+            </li>
+            <li class="footerNavigationItem">
+                Weekend 9:00 - 18.00
+            </li>
+        </ul>
+        <address>
             Rijksmuseum Amsterdam
             Postbus 74888
             1070 DN Amsterdam
             E-mail: info@rijksmuseum.nl
             Telefoonnummer: +31 (0) 20 6747 000
-            Bezoekadres
-            Museumstraat 1
-            1071 XX Amsterdam
-            Vestigingsadres
-            Hobbemastraat 20
-            1071 ZC Amsterdam
-        </p>
+        </address>
     </footer>
+
 </body>
+
 </html>
