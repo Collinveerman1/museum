@@ -42,51 +42,51 @@ function showSlides(n) {
 
 let locaties = [
    {
-       "titel":"plaats 0",
+       "titel":"De Metaale Pot, Bloempiramides, ca. 1692-1700",
        "image":"img/interactieveroute0.jpeg"
    },
    {
-       "titel":"plaats 1",
+       "titel":"Pierre Cuypers, Voorhal, 1885",
        "image":"img/interactieveroute1.jpeg"
    },
    {
-       "titel":"plaats 2",
+       "titel":"Frans Hals, Isaac Massa/Beatrix van der Laen, ca. 1622",
        "image":"img/interactieveroute2.jpeg"
    },
    {
-       "titel":"plaats 3",
+       "titel":"Jan Steen, Sint-Nicolaasfeest, 1665-1668",
        "image":"img/interactieveroute3.jpeg"
    },
    {
-       "titel":"plaats 4",
+       "titel":"Johannes Vermeer, Melkmeisje, ca. 1660",
        "image":"img/interactieveroute4.jpeg"
    },
    {
-       "titel":"plaats 5",
+       "titel":"Jan Asselijn, Bedreigde zwaan, ca. 1650",
        "image":"img/interactieveroute5.jpeg"
    },
    {
-       "titel":"plaats 6",
+       "titel":"Rembrandt van Rijn, Joodse bruidje, ca. 1665-1669",
        "image":"img/interactieveroute6.jpeg"
    },
    {
-       "titel":"plaats 7",
+       "titel":"Rembrandt van Rijn, Nachtwacht, 1642",
        "image":"img/interactieveroute7.jpeg"
    },
    {
-       "titel":"plaats 8",
+       "titel":"Adriaen de Vriend/Corn. Moesman, William Rex, 1698",
        "image":"img/interactieveroute8.jpeg"
    },
    {
-       "titel":"plaats 9",
+       "titel":"Pierre Cuypers, Bibliotheek, 1885. Stiltezone",
        "image":"img/interactieveroute9.jpeg"
    },
    {
-       "titel":"plaats 10",
+       "titel":"Bartholomeus van der Helst, Gerard Bicker, ca. 1642",
        "image":"img/interactieveroute10.jpeg"
    },
    {
-       "titel":"plaats 11",
+       "titel":"Poppenhuis Oortman, ca. 1686-1710",
        "image":"img/interactieveroute11.jpeg"
    }
 ];
